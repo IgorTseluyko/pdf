@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="transform.xsl"?>
+<doc>
+  <client>
+    <attr>
+      <item>
+        <key>KLADR</key>
+        <value>RU121301</value>
+      </item>
+      <item>
+        <key>ATTR1</key>
+        <value>15200</value>
+      </item>
+      <item>
+        <key>ATTR2</key>
+        <value>500</value>
+      </item>
+      <item>
+        <key>BARKOD</key>
+        <value/>
+      </item>
+      <item>
+        <key>ATTR3</key>
+        <value/>
+      </item>
+      <item>
+        <key>RSTKOD</key>
+        <value/>
+      </item>
+      <item>
+        <key>ATTR4</key>
+        <value/>
+      </item>
+    </attr>
+    <db>1960-04-30</db>
+    <dtm>1900-01-01 00:00:00.0</dtm>
+    <fam>САВЧЕНКО</fam>
+    <fam_ru>САВЧЕНКО</fam_ru>
+    <flJur>N</flJur>
+    <flPhys>Y</flPhys>
+    <idClient>24705751</idClient>
+    <im>ОЛЕКСАНДР</im>
+    <im_ru>АЛЕКСАНДР</im_ru>
+    <inn>2203523132</inn>
+    <lang>RUS</lang>
+    <message>ok</message>
+    <name/>
+    <otch>ВОЛОДИМИРОВИЧ</otch>
+    <otch_ru>ВЛАДИМИРОВИЧ</otch_ru>
+    <phoneM>+380671644138</phoneM>
+    <ref>inf_131204TM00906305</ref>
+    <sex>M</sex>
+    <state>BR</state>
+    <status>SD</status>
+    <type11>N</type11>
+    <type12>Y</type12>
+    <vip>N</vip>
+    <dDs>2002-10-11</dDs>
+    <dNum>900870</dNum>
+    <dSer>АМ</dSer>
+    <dWho>НОВОМОСКОВСКИМ РО УМВД</dWho>
+    
+    <index>51200</index>
+    <area>НОВОМОСКОВСКИЙ</area>
+
+    <town/>
+    <subTown/>
+    <townSocr/>
+
+    <cityMain/>
+    <citySocr/>
+    <city>ПЕРЕЩЕПИНО</city>
+
+    <street>ГЕОЛОГИЧЕСКАЯ</street>
+    <streetSocr/>
+
+    <home>5</home>
+    <corp/>
+    <flat>2</flat>
+
+  </client>
+</doc>
+
+
+
