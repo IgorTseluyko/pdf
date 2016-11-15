@@ -38,7 +38,6 @@ public class Runner {
                 transformer.transform(new StreamSource(xml), new SAXResult(fop.getDefaultHandler()));
                 System.out.println("PDF file created successfully!");
             }
-
         } catch (Exception e) {
             System.err.println("Error while creating pdf: " + e);
         }
