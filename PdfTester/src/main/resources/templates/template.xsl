@@ -21,7 +21,7 @@
                                 <fo:table-cell>
                                     <fo:block start-indent="45pt" end-indent="30pt">
                                         <fo:external-graphic
-                                                src="C:/Users/Igor_Tseluiko/Desktop/git/PdfTester/src/main/resources/CV.jpg"
+                                                src="/home/igor/git/pdf/pdf/PdfTester/src/main/resources/CV.jpg"
                                                 content-height="scale-to-fit"
                                                 content-width="scale-down-to-fit" height="160px"
                                                 width="575px"/>
@@ -31,14 +31,15 @@
                                     <fo:block start-indent="10pt" end-indent="10pt" font-size="13pt" font-weight="bold" font-family="Arial, TimesNewRoman" text-align="left">
                                         <fo:block space-after="1mm"><fo:inline color="green">Name:  </fo:inline>Tseluiko Igor</fo:block>
                                         <fo:block space-after="1mm"><fo:inline color="green">Role:  </fo:inline>Software Engineer</fo:block>
-                                        <fo:block space-after="1mm"><fo:inline color="green">Total experience:  </fo:inline>4 years</fo:block>
-                                        <fo:block space-after="1mm"><fo:inline color="green">Primary skill:  </fo:inline>Java</fo:block>
-                                        <fo:block space-after="1mm"><fo:inline color="green">Secondary skill:  </fo:inline>Scala</fo:block>
-                                        <fo:block space-after="1mm"><fo:inline color="green">English level:  </fo:inline>intermediate </fo:block>
+                                        <fo:block space-after="1mm"><fo:inline color="green">Total experience:  </fo:inline>4.5 years</fo:block>
+                                        <fo:block space-after="1mm"><fo:inline color="green">Languages:  </fo:inline>Java (expert), Scala (beginner)</fo:block>
+                                        <fo:block space-after="1mm"><fo:inline color="green">USA work permit:  </fo:inline>GreenCard Lottery winner, Visa issued</fo:block>
+                                        <fo:block space-after="1mm"><fo:inline color="green">Current place of living:  </fo:inline>Poland, Krakow </fo:block>
                                         <fo:block space-after="1mm"><fo:inline color="green">Skype:  </fo:inline>vas12388</fo:block>
                                         <fo:block space-after="1mm"><fo:inline color="green">Email:  </fo:inline>tseluyko.igor@gmail.com</fo:block>
-                                        <fo:block space-after="1mm"><fo:inline color="green">Phone:  </fo:inline>+48 530 608 121</fo:block>
-                                        <fo:block space-after="1mm"><fo:inline color="green">Education:  </fo:inline>Dnipropetrovsk National University: Specialist in economical cybernetics</fo:block>
+                                        <fo:block space-after="1mm"><fo:inline color="green">github:  </fo:inline>https://github.com/IgorTseluyko</fo:block>
+                                        <fo:block space-after="1mm"><fo:inline color="green">LinkedIn:  </fo:inline>www.linkedin.com/in/tseluiko</fo:block>
+                                        <fo:block space-after="1mm"><fo:inline color="green">Education:  </fo:inline>Ukraine, Dnipropetrovsk National University (DNU): Specialist in Economical Cybernetics (5 years)</fo:block>
                                     </fo:block>
                                 </fo:table-cell>
                             </fo:table-row>
@@ -48,6 +49,28 @@
                     <fo:block space-before="10mm" font-family="Arial, TimesNewRoman" font-size="13pt" margin-left="15mm" margin-right="15mm" margin-top="5mm" margin-bottom="10mm">
 
                         <fo:block font-weight="bold" font-size="14pt" space-after="5mm">Employment history:</fo:block>
+
+
+                        <fo:block font-weight="bold" color="green" space-after="2mm" text-align="left">EPAM (Poland)</fo:block>
+                        <fo:block>Project: <fo:inline color="green">GK Software on LIDL project</fo:inline></fo:block>
+                        <fo:block>Date: <fo:inline color="green">01.11.2016 - current</fo:inline></fo:block>
+                        <fo:block>Role: <fo:inline color="green">Java Backend Software Engineer</fo:inline></fo:block>
+                        <fo:block>Goal: <fo:inline color="green">Maintain POS terminal application for LIDL</fo:inline></fo:block>
+                        <fo:list-block space-after="2mm" space-before="2mm">
+                            <fo:list-item>
+                                <fo:list-item-label end-indent="label-end()">
+                                    <fo:block color="#008000">•</fo:block>
+                                </fo:list-item-label>
+                                <fo:list-item-body start-indent="body-start()">
+                                    <fo:block>POS terminal application. Technologies used: Swing, SVN, Java 6, Sonar,
+                                        Jenkins, Spring AOP, JMock, Self-developed ORM, XML, Maven, Google Guice.
+                                    </fo:block>
+                                </fo:list-item-body>
+                            </fo:list-item>
+                        </fo:list-block>
+
+                        <fo:block space-before="2mm" space-after="2mm">______________________________________________________________________</fo:block>
+
 
                         <fo:block font-weight="bold" color="green" space-after="2mm" text-align="left">EPAM (Poland)</fo:block>
                         <fo:block>Project: <fo:inline color="green">CME-SGE</fo:inline></fo:block>
@@ -227,15 +250,16 @@
 
                         <fo:block font-weight="bold" font-size="14pt" space-after="2mm">Professional summary:</fo:block>
                         <fo:block text-indent="2em">
-                            Software Engineer with 4 years of extensive experience in enterprise and financial domains of Software Development.
-                            I'm a volunteer in opensource project https://igov.org.ua, it creates e-government solutions for Ukraine.
-                            To be in good development shape about technologies I use - I read books/forums and investigate alternative solutions of the tasks.
+                            Software Engineer with 4.5 years of extensive experience in enterprise and financial domains of Software Development.
+                            Since I have been issued Diversity Visa to USA (It means Permanent Residence with work permit), I've started to look forward of finding a job there.
+                            Being proactive teamplayer with extensive experience - I believe I have a good chances to fit a team of professionals in a new place.
+                            To be in good development shape about technologies I do Research and Development on my free time - read books/forums, play with new technologies
+                            (my last creation is a telegram chat bot developed on scala).
                             Also I'm subscribed for blogs/tweets of the key/famous developers to be up-to-date with fast-developing programing environment.
                             Now I am learning functional paradigm of development with jvm-based Scala language(chain of courses from Martin Odersky in coursera.com).
                             Last books I've read are: "Programming in Scala: Updated for Scala 2.12" by Martin Odersky, "Java Concurrency in practice" by B. Goetz,
                             "Perfect code" by S.Mcconnell, Robert C. Martin "Clean code", O'Reilly third edition "Hadoop the definitive guide",
                             O'Reilly "Hbase the definitive guide", "Remote, Office not required" by founders of "37 signals".
-                            It helps me to deliver my best for the client.
                         </fo:block>
                     </fo:block>
                 </fo:flow>
