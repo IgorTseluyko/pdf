@@ -18,10 +18,10 @@ public class Runner {
 
     public static void main(String[] args) {
         try {
-            final String root = "/home/igor/git/pdf/pdf/PdfTester/src/main/resources/";
+            final String root = "C:/Users/igor.tseluiko/Desktop/git/pdf/PdfTester/src/main/resources/";
             File xml = new File(root + "templates/data.xml");
             File xslt = new File(root + "templates/template.xsl");
-            File pdffile = new File("/home/igor/git/pdf/pdf/PdfTester/src/Tseluiko_CV.pdf");
+            File pdffile = new File("C:/Users/igor.tseluiko/Desktop/git/pdf/PdfTester/src/Tseluiko_Resume.pdf");
 
             FopFactory fopFactory = FopFactory.newInstance();
             fopFactory.setUserConfig(new File(root + "fop-config.xml"));
