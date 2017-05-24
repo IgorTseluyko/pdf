@@ -29,7 +29,7 @@
             <fonts>
                 <!-- register all the fonts found in a directory -->
                 <!--<directory>/sybase/crm/homeapp/Tomcat_8080/webapps/GenerateMailNew/WEB-INF/classes/fonts</directory>-->
-                <directory>C:/Users/igor.tseluiko/Desktop/git/pdf/PdfTester/src/main/resources/fonts</directory>
+                <directory>/Users/mariiarudenko/git/pdf/PdfTester/src/main/resources/fonts</directory>
 
                 <!-- register all the fonts found in a directory and all of its sub directories (use with care) -->
                 <!--<directory recursive="true">/</directory>-->
